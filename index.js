@@ -18,10 +18,8 @@ function superbowlWin(array){
 }
 
 function superbowlWin(array) {
-    let result = array.find((element) => element.result==="W")
-    return result.year;
-    });
-    return undefined;
+let result = array.find((element) => element.result==="W")
+return result?result.year:undefined;
 }
  
 /*function superbowlWin(array){
