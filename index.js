@@ -12,16 +12,6 @@ const record = [
 ]
 
 
-function superbowlWin(array){
-   array.find((element) => {
-    if (element.result === 'W') {
-        return true; // stop searching
-    }else{
-      return false;
-    }
-});
-}
- 
  
 /*function superbowlWin(array){
 for(let i=0;i<array.length;i++)
