@@ -12,7 +12,7 @@ const record = [
 ]
 
 
- let superbowlWin = array.find(function (element) { 
+ let superbowlWin = record.find(function (element) { 
         if(element.result==="W")
         return element.year;
         return undefined;
