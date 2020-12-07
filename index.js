@@ -12,19 +12,19 @@ const record = [
 ]
 
 
-function superbowlWin(array){
+/*function superbowlWin(array){
  array.find(function (element) { 
         if(element.result==="W"){
         return element.year;
         }else{
         return undefined;}
     }); 
-}
+}*/
  
  
 function superbowlWin(array){
 for(let i=0;i<array.length;i++)
- if(array[i].result==="w"){
+ if(array[i].result==="W"){
   return array[i].year;
   }else{
   return undefined;
