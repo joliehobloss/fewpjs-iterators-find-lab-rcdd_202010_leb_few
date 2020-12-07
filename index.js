@@ -14,7 +14,7 @@ const record = [
 
 function superbowlWin(array){
 let res=array.find(element=>element.result==="W")
-return res.year;
+//return res.year;
 //undefined;
 return res;
 }
