@@ -22,10 +22,12 @@ function superbowlWin(array){
 }
  
  
- function superbowlWin(array){
+function superbowlWin(array){
 for(let i=0;i<array.length;i++)
- if(array[i].result==="w")
+ if(array[i].result==="w"){
   return array[i].year;
-  else
-  return 
+  }else{
+  return undefined;
+    
+  }
 }
