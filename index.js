@@ -16,6 +16,13 @@ function superbowlWin(array){
   return a.year
   
 }
+
+function superbowlWin(array) {
+    let result = array.find((element) => element.result==="W")
+    return result.year;
+    });
+    return undefined;
+}
  
 /*function superbowlWin(array){
 for(let i=0;i<array.length;i++)
