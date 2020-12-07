@@ -11,15 +11,6 @@ const record = [
   {year: "2016", result: "N/A"}
 ]
 
-
-function superbowlWin(array){
- array.find(function (element) { 
-        if(element.result==="W")
-        return element.year;
-    }); 
-    //return undefined;
-}
- 
  
 function superbowlWin(array){
 for(let i=0;i<array.length;i++)
