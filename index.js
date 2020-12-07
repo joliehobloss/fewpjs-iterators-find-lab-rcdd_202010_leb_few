@@ -7,7 +7,7 @@ function testFunc() {
 
 const record = [
   {year: "2018", result: "L"},
-  {year: "2017", result: "0"},
+  {year: "2017", result: "h"},
   {year: "2016", result: "N/A"}
 ]
 
