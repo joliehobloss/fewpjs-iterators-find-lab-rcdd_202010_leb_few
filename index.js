@@ -7,14 +7,19 @@ function testFunc() {
 
 const record = [
   {year: "2018", result: "L"},
-  {year: "2017", result: "h"},
+  {year: "2017", result: "W"},
   {year: "2016", result: "N/A"}
 ]
 
 
 function superbowlWin(array){
-let res=array.find(element=>element.result==="W")
-return res.year;
+   array.find((element) => {
+    if (element.result === 'W') {
+        return true; // stop searching
+    }else{
+      return false;
+    }
+});
 }
  
  
