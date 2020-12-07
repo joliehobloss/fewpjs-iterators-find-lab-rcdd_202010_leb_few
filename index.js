@@ -12,9 +12,9 @@ const record = [
 ]
 
 function superbowlWin(array){
-  let a=undefined;
   a=array.find(elmenet=>elmenet.result==="W")
-  return a.year;
+  return a.year
+  
 }
  
 /*function superbowlWin(array){
