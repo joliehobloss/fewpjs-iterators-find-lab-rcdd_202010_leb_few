@@ -17,7 +17,7 @@ function superbowlWin(array){
         if(element.result==="W")
         return element.year;
     }); 
-    return undefined;
+    //return undefined;
 }
  
  
