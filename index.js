@@ -12,6 +12,8 @@ const record = [
 ]
 
 function superbowlWin(array){
- array.find() 
+ array.find(element=>element.result==="W") 
   
 }
+
+roommates.find( s => s === "winston" )
