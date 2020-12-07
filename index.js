@@ -12,14 +12,13 @@ const record = [
 ]
 
 
-/*function superbowlWin(array){
+function superbowlWin(array){
  array.find(function (element) { 
-        if(element.result==="W"){
+        if(element.result==="W")
         return element.year;
-        }else{
-        return undefined;}
     }); 
-}*/
+    return undefined;
+}
  
  
 function superbowlWin(array){
